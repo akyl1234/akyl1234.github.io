@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>E-Portfolio | Aqil</title>
+	<link rel="stylesheet" type="text/css" href="contact-style.css">
+	<!--Using-FontAwesome------>
+	<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<section>
+	<!--navigation------------->
+	<nav>
+		<!--logo-->
+		<p class="logo">76.1</p>
+		<!--menu-->
+		<ul>
+		<li><a href="index.html">Home</a></li>	
+		<li><a href="about.html">About</a></li>
+		<li><a href="contact.html" class="active">Contact Me</a></li>
+		<li><a href="work.html">My Work</a></li>
+
+		</ul>	
+	</nav>
+	<!--form---------------->
+	<div class="form-container">
+	<form action="https://formspree.io/f/xleagovb" method="POST">
+		<label for="salutation">Salutation : </label>
+		<select id="salutation" name="salutation">
+			<option value="none">Please select one...</option>
+			<option value="Mr">Mr.</option>
+			<option value="Mrs">Mrs.</option>
+			<option value="Ms">Ms.</option>
+		</select>
+
+		<label for="name">Name: </label>
+		<input type="text" name="name" placeholder="Your name...">
+
+		<label for="gender">Gender: </label>
+		<input type="radio" id="male" name="gender" value="male">
+		<label for="male">Male</label>
+		<input type="radio" id="female" name="gender" value="female">
+		<label for="female">Female</label><br><br>
+
+		<label for="age">Age: </label>
+		<select id="age" name="age">
+			<option value="5-12 years old">5-12 years old</option>
+			<option value="13-19 years old">13-19 years old</option>
+			<option value="20-45 years old">20-45 years old</option>
+			<option value="45-Above">45-Above</option>
+		</select>
+
+		<label for="comment">Comment: </label>
+		<textarea id="comment" name="comment" placeholder="Your comment..." style="height: 200px"></textarea>
+
+		<input type="checkbox" id="chkagree" name="chkagree" value="Agree">
+		<label for="chkagree">I agree with the Terms and Conditions and the Privacy Policy.</label><br>
+
+		<input type="submit" value="Submit">
+	</form>
+	</section>
+<!--footer--------------->
+	<footer>
+		<p>Seventy-six.one</p>
+		<p>For now, I can make a simple web design. Looking forward for your feedback. :))</p>
+	<!--social----------------------->
+	<div class="social-icons">
+		<a href="https://www.facebook.com/mizuo.arekyl/"><i class="fab fa-facebook-f"></i></a>
+		<a href="https://www.instagram.com/_entxhlanak/"><i class="fab fa-instagram"></i></a>
+		<a href="https://www.youtube.com/channel/UCVZAhaFJ7SOhiUXyugCeRlg"><i class="fab fa-youtube"></i></a>
+
+	</div>
+	<!--copyright------------------->
+		<p class="copyright">Copyright &#169; 76.1 All Rights Reserved.</p>
+	</footer>
+</body>
+</html>
